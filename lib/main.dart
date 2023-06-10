@@ -11,7 +11,7 @@ class  MyDetails extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white54,
       appBar: AppBar(
-        title: Text('DEV ID'),
+        title: Text('MY ID'),
         centerTitle: true,
         backgroundColor: Colors.redAccent[400],
       ),
