@@ -21,6 +21,16 @@ class  MyDetails extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Center(
+              child: CircleAvatar(
+                backgroundImage: AssetImage('assets/Yash(1).jpg'),
+                radius: 45.0,
+              ),
+            ),
+            Divider(
+              height:50,
+              color: Colors.black54,
+            ),
             Text(
               'NAME',
               style: TextStyle(
